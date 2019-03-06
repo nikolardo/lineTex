@@ -21,7 +21,7 @@ i = 0
 # for each face of the polygon
 for f in obj.data.polygons:
     # copy the existing material
-    mat = materials[f.material_index].copy()me
+    mat = materials[f.material_index].copy()
     # give it an appropriate name
     mat.name = ('NikMat' + str(f.index))
     col = 0
